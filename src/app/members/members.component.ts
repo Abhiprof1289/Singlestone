@@ -10,7 +10,7 @@ import { TeamService } from '../team.service';
 export class MembersComponent implements OnInit {
   teams: Array<Team>;
 
-  constructor(private _serv: TeamService) {
+  constructor(private _serv: TeamService) {  
 
   }
   ngOnInit() {
